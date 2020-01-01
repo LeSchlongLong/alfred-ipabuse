@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.abuseipdb</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>169136A6-1CDC-4199-B996-2984C4CAEB90</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3062305A-C72A-4ABF-A637-C3A1680A4D02</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>LeSchlongLong</string>
+	<key>description</key>
+	<string>Check IPs with the AbuseIPDB Database</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>IP Checker</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>3062305A-C72A-4ABF-A637-C3A1680A4D02</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ip</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Waiting for Response</string>
+				<key>script</key>
+				<string>python get.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Type in a valid ipv4 or ipv6 address</string>
+				<key>title</key>
+				<string>Check an IP</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>169136A6-1CDC-4199-B996-2984C4CAEB90</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow looks up Abuse history of an IP.
+
+To use it you need an API Key. To obtain a free key visit https://www.abuseipdb.com/
+
+It has to be an APIv2 Key. You will see the available Keys in the account section once you create an account.
+
+To use the key enter it as an environmental variable.
+
+It should work now! If you have any issues report it on my Github.
+https://github.com/leschlonglong</string>
+	<key>uidata</key>
+	<dict>
+		<key>169136A6-1CDC-4199-B996-2984C4CAEB90</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+		<key>3062305A-C72A-4ABF-A637-C3A1680A4D02</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>API</key>
+		<string>f9b08235d4016a5c7f37d8711ac59b17732c8313d94415cc64e78ed9549c73b33c6ca1f656c9fff1</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>API</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/leschlonglong</string>
+</dict>
+</plist>
