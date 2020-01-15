@@ -15,7 +15,7 @@ This is an Alfred Workflow to check abuse records for an IP address using the Ab
 
     1. Go to the Accounts tab
 
-    ![alt text](https://raw.githubusercontent.com/LeSchlongLong/alfred-ipabuse/master/AccountsTab.png)
+    1. ![alt text](https://raw.githubusercontent.com/LeSchlongLong/alfred-ipabuse/master/AccountsTab.png)
 
     1. Create **APIv2** Key
 
@@ -31,6 +31,6 @@ This is an Alfred Workflow to check abuse records for an IP address using the Ab
 
     1. Click the [X] on the top right corner
 
-    ![alt text](https://raw.githubusercontent.com/LeSchlongLong/alfred-ipabuse/master/Workflow.png)
+    1. ![alt text](https://raw.githubusercontent.com/LeSchlongLong/alfred-ipabuse/master/Workflow.png)
 
     1. Add the **API Key** as the **Value** for the **API Variable**
