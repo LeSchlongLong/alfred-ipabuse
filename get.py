@@ -2,7 +2,6 @@ import os
 import requests
 import json
 import sys
-
 # Grab the query
 args = sys.argv[1]
 

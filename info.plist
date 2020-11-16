@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alfredapp.abuseipdb</string>
-	<key>category</key>
-	<string>Internet</string>
 	<key>connections</key>
 	<dict>
 		<key>169136A6-1CDC-4199-B996-2984C4CAEB90</key>
@@ -39,6 +37,8 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
