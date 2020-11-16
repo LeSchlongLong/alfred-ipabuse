@@ -1,10 +1,12 @@
 # Alfred-ipabusecheck
 
-**Update (16.November):** I have noticed a problem with Python and the requests library, this workflow utilizes, in Big Sur. Will look into it ASAP. If you know how to fix it please create a pull request.
-
 **Version 1.0.0**
 
 This is an Alfred Workflow to check abuse records for an IP address using the AbuseIPDB database.
+
+**Version 1.0.1**
+
+The requests module now comes shipped within the workflow.
 ## Requirements
 
 * Alfred Powerpack
